@@ -9,13 +9,14 @@ import components.simplewriter.SimpleWriter1L;
  * @author Put your name here
  *
  */
-public final class ProgramWithIO {
+public final class Ram {
 
     /**
      * No argument constructor--private to prevent instantiation.
      */
-    private ProgramWithIO() {
-    }
+    private Ram() {
+        
+    }//private ram
 
     /**
      * Main method.
@@ -24,16 +25,7 @@ public final class ProgramWithIO {
      *            the command line arguments
      */
     public static void main(String[] args) {
-        SimpleReader in = new SimpleReader1L();
-        SimpleWriter out = new SimpleWriter1L();
-        /*
-         * Put your main program code here
-         */
-        /*
-         * Close input and output streams
-         */
-        in.close();
-        out.close();
-    }
+        
+    }//main
 
-}
+}//end 
